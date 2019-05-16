@@ -1,0 +1,6 @@
+b<- c("PHP","R")
+y<- c("C1","C2","C3")
+d<- c("D1","D2","D3")
+a <- array(c(2,4,5,6,7,8),dim=c(3,3,2),dimnames=list(y,d,b))
+print(a)
+print(a[3,,])
